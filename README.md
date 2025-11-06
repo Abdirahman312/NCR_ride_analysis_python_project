@@ -1,4 +1,4 @@
-# 🚖 NCR Ride Bookings Analysis <img src="https://github.com/user-attachments/assets/f4b4e535-1355-45cf-95a7-3ef9f3d4605d" width="40px">
+# 🚖 NCR Ride Bookings Analysis <img src="https://github.com/user-attachments/assets/12a613b0-5263-440b-87b4-f476bbbcf683" width="40px">
 
 ## 📌 Project Overview
 This project analyzes ride booking data from NCR to uncover key insights such as ride patterns, popular routes, booking status trends, and customer/driver ratings.  
