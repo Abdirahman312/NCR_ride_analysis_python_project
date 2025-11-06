@@ -88,7 +88,7 @@ Key findings:
 
 ## 📑 Reports
 You can view the full report in:  
-- [📄 PDF Report](reports/NCR_Ride_Bookings_Analysis.pdf)  
+- [📄 PDF Report]([reports/NCR_Ride_Bookings_Analysis.pdf](https://github.com/Abdirahman312/NCR_ride_analysis_python_project/blob/main/Reports/NCR%20ride%20bookings%20analysis.pdf))  
 - [🌐 HTML Report](reports/NCR_Ride_Bookings_Analysis.html)  
 
 ---
