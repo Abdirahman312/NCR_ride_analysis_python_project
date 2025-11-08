@@ -30,28 +30,33 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 ```
 
+---
 ### Loading the Dataset
 ```python
 df = pd.read_csv('NCR_Ride_Bookings.csv')
 df.head()
 ```
 
+---
 ### Data Cleaning
 ```python
 # Remove duplicates and missing values
 df.drop_duplicates(inplace=True)
 df.dropna(subset=['Driver_Rating', 'Customer_Rating'], inplace=True)
 
+---
 # Convert to datetime
 df['Request_Time'] = pd.to_datetime(df['Request_Time'])
 df['Drop_Time'] = pd.to_datetime(df['Drop_Time'])
 
+---
 # Feature Engineering
 df['day_of_week'] = df['Request_Time'].dt.day_name()
 df['hour'] = df['Request_Time'].dt.hour()
 df['ride_duration'] = (df['Drop_Time'] - df['Request_Time']).dt.total_seconds() / 60
 ```
 
+---
 ### Analysis Example
 ```python
 # Booking status distribution
@@ -61,6 +66,7 @@ booking_status = df['Booking_Status'].value_counts()
 avg_value = df.groupby('Payment_Method')['Booking_Value'].mean().sort_values(ascending=False)
 ```
 
+---
 ### Visualization Example
 ```python
 plt.figure(figsize=(8,5))
